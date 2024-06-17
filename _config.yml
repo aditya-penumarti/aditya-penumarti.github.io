@@ -21,7 +21,7 @@ repository               : "aditya-penumarti/aditya-penumarti.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "aditya-penumarti-profile.jpg"
   name             : "Aditya Penumarti"
   pronouns         : # example: "she/her"  
   bio              : "A graduate student at the University of Florida researching robotic path planning"
