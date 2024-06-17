@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Aditya Penumarti"
 title_separator          : "-"
 name                     : &name "Aditya Penumarti"
-description              : &description "A graduate student at the University of Florida researching robotic path planning"
+description              : &description "Aditya Penumarti"
 url                      : https://aditya-penumarti.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "aditya-penumarti/aditya-penumarti.github.io"
@@ -32,11 +32,11 @@ author:
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : 
   impactstory      : # URL
-  orcid            : "http://orcid.org/yourorcidurl"
+  orcid            : 
   semantic         : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : 
   researchgate     : # URL
 
   # Repositories and software development
