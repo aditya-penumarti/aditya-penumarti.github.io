@@ -1,5 +1,5 @@
 ---
-title: "EML4930: Autonomous Vehicles"
+title: "EML4930: Autonomous Vehicles -- Teaching Assistant"
 collection: teaching
 type: "Undergraduate Course - Special Topics"
 permalink: /teaching/2023-spring-teaching-1
@@ -8,7 +8,7 @@ date: 2023-01-01
 location: "Gainesville, FL, USA"
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
+This class taught students the fundamentals of programming a autonomous ground vehicle. It included working with feedback controllers, and sensors such as LiDAR, IMU and wheel encoders. The class was taught using the Robot Operating System (ROS).
 
 Heading 1
 ======
