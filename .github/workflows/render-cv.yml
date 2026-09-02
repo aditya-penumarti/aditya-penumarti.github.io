@@ -4,6 +4,7 @@ on:
     branches:
       - main
       - master
+      - gh_pages
     paths:
       - "_data/cv.yml"
       - "assets/rendercv/design.yaml"
