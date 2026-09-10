@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-09-02'
+  last_updated: '2026-09-10'
 papers:
   q9V7p6kAAAAJ:9yKSN-GCB0IC:
     citations: 2
@@ -17,6 +17,14 @@ papers:
     citations: 0
     title: Neural Network-Based Magnetometer Sensor Model for Virtual Magnetic-Based Navigation Testbed
     year: '2025'
+  q9V7p6kAAAAJ:W7OEmFMy1HYC:
+    citations: 0
+    title: Calibration and Comparative Analysis of Forward-Looking Sonar and 3D Sonar for Enhanced Underwater Object Recognition
+    year: '2026'
+  q9V7p6kAAAAJ:Y0pCki6q_DkC:
+    citations: 0
+    title: 'uScenes: A Multimodal RGB and 3D Sonar Dataset for Underwater Robot Perception'
+    year: '2026'
   q9V7p6kAAAAJ:d1gkVwhDpl0C:
     citations: 3
     title: Fast marching based rendezvous path planning for a team of heterogeneous vehicles
