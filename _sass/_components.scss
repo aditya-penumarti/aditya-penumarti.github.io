@@ -130,7 +130,31 @@ ul.task-list input[type="checkbox"] {
         color: var(--global-card-bg-color) !important;
         background-color: var(--global-theme-color) !important;
       }
+
+      // Publication reference (J1, C1, ...) shown as an outlined badge under the year
+      .badge.badge-ref {
+        color: var(--global-theme-color) !important;
+        background-color: transparent !important;
+        border: 1px solid var(--global-theme-color);
+        margin-top: 4px;
+      }
     }
+  }
+
+  // Dated entries: hide the list marker (plain bullet sections keep theirs)
+  .list-group-item:has(> .row) {
+    list-style: none;
+  }
+
+  // Date/location column: drop the generic table cell borders and let long dates wrap
+  table.table-cv td {
+    border: none;
+    padding: 1px;
+  }
+
+  .date-column .badge {
+    white-space: normal;
+    line-height: 1.3;
   }
 }
 

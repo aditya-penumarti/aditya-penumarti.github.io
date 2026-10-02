@@ -25,8 +25,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a Ph.D candidate at the University of Florida - Mechanical and Aerospace Engineering Department working with [Prof. Jane Shin](https://theaprilab.org/people/jane). I received my M.Sc from the University of Florida working with [Prof. Carl Crane](https://mae.ufl.edu/people/name/carl-crane/) and [Prof. Michael Griffis](https://mae.ufl.edu/people/name/mike-griffis/). I received my B.Sc. from North Carolina State University.
+I am a Ph.D. candidate at the University of Florida in the  Mechanical and Aerospace Engineering Department, where I study how robots can make good decisions when they can’t be sure where they are or what’s around them.
+My research focuses on **planning under uncertainty** in **GPS-denied environments**, such as underwater or indoor environments. The overarching theme is *active perception*: my algorithms treat sensing as active, allowing them to choose to gather the information a robot needs to stay localized. This includes **belief-space planning**, **uncertainty-aware representations** of the environment, and **information-constrained planning** that decides how much sensing is enough. The algorithms I design have been tested on **underwater and ground robots** with support from the *Air Force Research Laboratory (AFRL)*.
 
-My research is at the intersection of **motion planning**,**path planning**, and **planning under uncertainty** (*belief space planning*). I will occasionally perform sensor fusion and localization research depending on the project. I work to advance the safety for a robotic system when navigating in an unknown **GPS-Denied** terrain. This includes work with **ground**, **aerial** and **underwater** robots. I am also interested in *heterogenous sensing* and *heterogenous multi-robot collaboration*.
-
-I am deeply interested in teaching as well, developing an autonomous ground vehicle class at the University of Florida, along with helping develop curriculum and projects for the Computer Aided Design, Mechanics of Materials Lab and Controls Lab.
+I am advised by [Prof. Jane Shin](https://theaprilab.org/people/jane). I received my M.Sc from the University of Florida, working with [Prof. Carl Crane](https://mae.ufl.edu/people/name/carl-crane/) and [Prof. Michael Griffis](https://mae.ufl.edu/people/name/mike-griffis/). I received my B.Sc. from North Carolina State University.
+ 
+I am deeply interested in teaching and mentoring. I co-developed an autonomous ground vehicle class at the University of Florida, built on 1/10 vehicle platforms, and I have mentored five undergraduate and master's students.

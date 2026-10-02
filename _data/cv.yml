@@ -1,10 +1,9 @@
 cv:
   name: Aditya Penumarti
   label: Ph.D. Candidate
-  # email: aaa
   location: Gainesville, FL
+  website: https://aditya-penumarti.github.io
   image: ""
-  summary: A Ph.D. student studying belief-space motion planning and path planning for robots.
 
   social_networks:
     - network: GitHub
@@ -13,180 +12,255 @@ cv:
       username: adi-pen
 
   address:
-    # street: 2712 Broadway St
-    city: Gainesville 
+    city: Gainesville
     region: Florida
     postalCode: FL 32611
     countryCode: US
 
   sections:
+    Research Interests:
+      - bullet: "Robot decision-making under uncertainty in unstructured and GPS-denied environments: belief-space planning, uncertainty-aware multimodal representations, information-constrained planning, and active perception for marine and aerial vehicles."
+
     Education:
       - institution: University of Florida
-        location: Gainesville FL, USA
+        location: Gainesville, FL
         url: https://www.ufl.edu/
         area: Mechanical Engineering
-        studyType: PhD
+        studyType: Ph.D.
         start_date: 2023
-        end_date: 2027
-        score: ""
-        courses: "Theory of Relativity"
+        end_date: "Expected Spring 2027"
         highlights:
-          # - Description 1.
-          # - Description 2.
+          - "Dissertation: *Uncertainty Quantification and Representations for Active Perception in Navigation and Planning Frameworks*"
+          - "Advisor: Jaejeong Shin (now Seoul National University)"
+          - "Committee Chair: Rushikesh Kamalapurkar"
 
-      - institution: University of Florida 
-        location: Gainesville FL, USA
-        url: https://ufl.edu
+      - institution: University of Florida
+        location: Gainesville, FL
+        url: https://www.ufl.edu/
         area: Mechanical Engineering
-        studyType: M.Sc
+        studyType: M.S.
         start_date: 2021
-        end_date: 2023
+        end_date: 2023-08
         highlights:
-          # - Description 1.
-          # - Description 2.
-          
-      - institution: North Carolina State University 
-        location: Raleigh NC, USA
-        url: https://ncsu.edu
+          - "Thesis: *Mechanical Networks: An Investigation Into Connected Kinematic Systems*"
+          - "Advisor: Carl D. Crane III"
+
+      - institution: North Carolina State University
+        location: Raleigh, NC
+        url: https://www.ncsu.edu/
         area: Mechanical Engineering
-        studyType: B.Sc
+        studyType: B.S.
         start_date: 2017
-        end_date: 2021
+        end_date: 2021-05
+
+    Publications:
+      - title: Real-Time Uncertainty-Aware Motion Planning for Magnetic-Based Navigation
+        authors:
+          - Aditya Penumarti
+          - Humberto Ramos
+          - Kristy Waters
+          - Kevin Brink
+          - Jaejeong Shin
+        publisher: "IEEE Access, vol. 14, pp. 23824–23834"
+        releaseDate: 2026
+        url: https://doi.org/10.1109/ACCESS.2026.3661848
+        ref: J1
+        summary: "**Aditya Penumarti**, Humberto Ramos, Kristy Waters, Kevin Brink, Jaejeong Shin"
+
+      - title: Fast Marching Based Rendezvous Path Planning for a Team of Heterogeneous Vehicles
+        authors:
+          - Jaekwang Kim
+          - Hyung-Jun Park
+          - Aditya Penumarti
+          - Jaejeong Shin
+        publisher: "IEEE Access, vol. 12, pp. 122609–122623"
+        releaseDate: 2024
+        url: https://doi.org/10.1109/ACCESS.2024.3444314
+        ref: J2
+        summary: "Jaekwang Kim, Hyung-Jun Park, **Aditya Penumarti**, Jaejeong Shin"
+
+      - title: Calibration and Comparative Analysis of Forward-Looking Sonar and 3D Sonar for Enhanced Underwater Object Recognition
+        authors:
+          - Aditya Penumarti
+          - Khanh Dong
+          - Zi-Hao Zhang
+          - Yongkyoon Park
+          - Zhenqi Wu
+          - Trung Dong
+          - Shahriar Negahdaripour
+          - Xiaomin Lin
+          - Jaejeong Shin
+        publisher: IEEE/MTS OCEANS 2026 - Monterey
+        url: https://theaprilab.org/fls-3d-calibrator/
+        releaseDate: 2026
+        ref: C1
+        summary: "**Aditya Penumarti**, Khanh Dong†, Zi-Hao Zhang†, Yongkyoon Park, Zhenqi Wu, Trung Dong, Shahriar Negahdaripour, Xiaomin Lin, Jaejeong Shin"
+
+      - title: "uScenes: A Multimodal RGB and 3D Sonar Dataset for Underwater Robot Perception"
+        authors:
+          - Trung Tien Dong
+          - Zhenqi Wu
+          - Aditya Penumarti
+          - Zi-Hao Zhang
+          - Micaiah Bartlett
+          - Jaejeong Shin
+          - Xiaomin Lin
+        publisher: IEEE/MTS OCEANS 2026 - Monterey
+        url: https://github.com/era-research-lab/uScenes
+        releaseDate: 2026
+        ref: C2
+        summary: "Trung Tien Dong, Zhenqi Wu, **Aditya Penumarti**, Zi-Hao Zhang†, Micaiah Bartlett, Jaejeong Shin, Xiaomin Lin"
+
+      - title: Action Recognition for Underwater Gesture Communication in Human Diver and Robot Teaming
+        authors:
+          - Zi-Hao Zhang
+          - E. Baker Herrin
+          - Jia Guo
+          - Aditya Penumarti
+          - Zilong He
+          - Andres Pulido
+          - Jaejeong Shin
+        publisher: 2025 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)
+        releaseDate: 2025
+        ref: C3
+        summary: "Zi-Hao Zhang†, E. Baker Herrin, Jia Guo, **Aditya Penumarti**, Zilong He, Andres Pulido, Jaejeong Shin"
+
+      - title: "Belief-Conditioned One-Step Diffusion: Real-Time Trajectory Planning with Just-Enough Sensing"
+        authors:
+          - Gokul Puthumanaillam
+          - Aditya Penumarti
+          - Manav Vora
+          - Paulo Padrao
+          - Jose Fuentes
+          - Leonardo Bobadilla
+          - Jaejeong Shin
+          - Melkior Ornik
+        publisher: "Proceedings of the 9th Conference on Robot Learning (CoRL), PMLR 305:68–92"
+        releaseDate: 2025
+        ref: C4
+        summary: "Gokul Puthumanaillam, **Aditya Penumarti**, Manav Vora, Paulo Padrao, Jose Fuentes, Leonardo Bobadilla, Jaejeong Shin, Melkior Ornik"
+
+      - title: "Lessons from RAITE: Real-World Evaluation of Robust Multimodal Target Detection and Tracking under Adversarial Attacks"
+        authors:
+          - E. Baker Herrin
+          - Aditya Penumarti
+          - Andres Pulido
+          - Nikhil Iyer
+          - You-Long Wu
+          - Kaleb Lewellen
+          - Tyler Fitzsimmons
+          - Jaejeong Shin
+        publisher: Disruptive Technologies in Information Sciences IX, Proc. SPIE
+        releaseDate: 2025
+        ref: C5
+        summary: "E. Baker Herrin, **Aditya Penumarti**, Andres Pulido, Nikhil Iyer†, You-Long Wu†, Kaleb Lewellen, Tyler Fitzsimmons, Jaejeong Shin"
+
+      - title: Neural Network-Based Magnetometer Sensor Model for Virtual Magnetic-Based Navigation Testbed
+        authors:
+          - Aditya Penumarti
+          - Nikhil Iyer
+          - Loi Park
+          - Kristy Waters
+          - Jose H. Ramos
+          - Jaejeong Shin
+        publisher: AIAA SciTech Forum
+        releaseDate: 2025
+        ref: C6
+        summary: "**Aditya Penumarti**, Nikhil Iyer†, Loi Park†, Kristy Waters, Jose H. Ramos, Jaejeong Shin"
+
+    Under Review:
+      - bullet: "[R1] **Aditya Penumarti**, Nikhil Iyer†, Jaejeong Shin, \"Paper on Field Mapping,\" submitted to *IEEE Robotics and Automation Letters (RA-L)*, 2026."
+      - bullet: "[R2] **Aditya Penumarti**, Jaejeong Shin, \"Paper on uncertainty aware navigation in scalar fields,\" submitted to *2027 IEEE International Conference on Robotics and Automation (ICRA)*, 2027."
+      - bullet: "[R3] Manav Vora, Gokul Puthumanaillam, **Aditya Penumarti**, Jaejeong Shin, Melkior Ornik, \"Paper on multi-agent diffusion planners,\" submitted to *2027 International Conference on Autonomous Agents and Multiagent Systems (AAMAS)*, 2027."
+      - bullet: "† Student mentee"
+
+    Research Experience:
+      - company: University of Florida
+        position: Graduate Research Assistant
+        location: Gainesville, FL
+        start_date: 2023-08
+        summary: "Active perception and uncertainty representations in GPS-denied environments (Advisor: Jaejeong Shin)"
         highlights:
-          # - Description 1.
-          # - Description 2.
+          - "Developed an uncertainty-aware magnetic navigation planner that, compared with state-of-the-art methods, improves localization accuracy by 5%, cuts failure rates by 34%, and reduces computational costs by over 99% [J1]."
+          - "Built neural and Bayesian neural network models of magnetometer sensing and magnetic fields, including expandable maps with calibrated uncertainty when compared to Gaussian process baselines [C6, R1]."
+          - "Characterized how gradients in scalar fields determine localizability and used this for information-driven planning [R2]."
+          - "Designed research drones for information-aware guidance; built a magnetic navigation simulator in NVIDIA Isaac Sim, Gazebo, and ROS2."
+          - "Developed low- and high-level software for an underwater vehicle (thrust mapping, filtering, closed-loop control) and a gesture-driven diver-following controller with transformer-based gesture recognition [C3]."
+          - "Built radar–vision fusion tracking (YOLO detection, global nearest-neighbor association) for the U.S. Navy NSWC Crane Robust AI Test Event (RAITE), evaluated under adversarial attack [C5]."
 
-    Experience:
-
-      - company: University of Florida - Department of Mechanical and Aerospace Engineering
-        position: Graduate Research Assistant 
-        location: Gainesville, FL 
-        start_date: 2023
-        # end_date: Present
-        highlights:
-          # - Description 1.
-          # - Description 2.
-
-      - company: University of Florida - Department of Mechanical and Aerospace Engineering Rapid Prototyping Laboratory
+      - company: Center for Intelligent Machines and Robots, University of Florida
         position: Lab Assistant
         location: Gainesville, FL
-        start_date: 2021
-        end_date: 2023
+        start_date: 2021-09
+        end_date: 2023-08
+        summary: "Research on mechanically connected systems to evaluate kinematic feasibility (Advisor: Carl D. Crane III)"
+        highlights:
+          - "Automated a go-kart with GNSS and LiDAR navigation; implemented ROS2 path planning, SLAM, LiDAR mapping and localization, and UKF-based sensor fusion."
+          - "M.S. thesis (Advisor: Carl D. Crane III): mechanical network analysis of closed-loop mechanisms (four-bar, Stephenson, and parallel) for geometric mobility, joint displacement, and internal joint preload."
 
-      - company: North Carolina State University Student Media - Agromeck 
-        position: Photo Editor 
-        location: Raleigh, NC 
-        start_date: 2019
-        end_date: 2021
-
-      - company: North Carolina State University Student Media 
-        position: Videographer 
-        location: Zurich, Switzerland
-        start_date: 2018
-        end_date: 2021
-
-    Volunteer:
-      - company: P.K. Yonge High School - Robotics Team (Roaring Riptide) 
-        position: Mentor
+    Teaching Experience:
+      - company: "EML4842C: Autonomous Vehicles, University of Florida"
+        position: Course Co-Developer
         location: Gainesville, FL
-        start_date: 2024-01-10
-        end_date: 2025-05-01
-        summary: Engineering mentor for the high school robotics FRC team. I helped with programming and engineering design while emphasizing the need to understand and learn the conceptual parts of robotics. 
-        # highlights:
+        date: 2022-08
+        highlights:
+          - "Co-developed the course with Carl D. Crane III."
+          - "Designed and maintained robotic vehicle platforms, created assignments, projects, and lecture materials in conjunction with the lecturer."
+          - "Taught undergraduate students autonomous navigation using GNSS and LiDAR on a full-scale go-kart platform."
 
-    Awards:
-      - title: Herbert Werthiem College of Engineering Dean's Research Award
-        authors:
-          - "University of Florida"
-        date: 2023 
-        awarder: Herbert Werthiem College of Engineering 
-        # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        # summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: University of Florida
+        position: Teaching Assistant
+        location: Gainesville, FL
+        start_date: 2021
+        end_date: 2025
+        highlights:
+          - "EML2023 - Computer Aided Design, Fall 2021, Summer 2025: graded assignments and held office hours."
+          - "EML6282 - Robot Geometry II, Spring 2022: graded assignments and held office hours."
+          - "EML3301C - Mechanics of Materials Lab, Summer 2025: graded assignments and held office hours."
 
-      - title: Herbert Werthiem College of Engineering Achievement Award
-        authors:
-          - "University of Florida"
+      - company: UF-MAE Rapid Prototyping Facility
+        position: Manager and Lab TA
+        location: Gainesville, FL
+        start_date: 2021-09
+        end_date: 2023-08
+        highlights:
+          - "Trained and managed student assistants in CNC machining and 3D printing to precise tolerances."
+          - "Designed and built apparatus and experiments for undergraduate laboratory courses: (1) Computer Aided Design, (2) Mechanics of Materials Lab, (3) Dynamics and Controls System Laboratory."
+
+    Guest Lectures:
+      - bullet: "*Lecture on Dead Reckoning*, EML4842C: Autonomous Vehicles, Spring 2023"
+      - bullet: "*Lecture on Particle Filtering*, EML6934: Sensor Based Robot Planning, Spring 2024"
+      - bullet: "*Lecture on Controllability*, EML4312: Control of Dynamic Systems, Fall 2024"
+
+    Mentoring:
+      - bullet: "**Zi-Hao Zhang**, master's and Ph.D. researcher (2024–Present): learning-based tracking of divers and agents [C1, C2, C3]"
+      - bullet: "**Khanh Dong**, master's researcher (2026–Present): computer vision and sonar calibration [C1]"
+      - bullet: "**Nikhil Iyer**, undergraduate researcher (2023–2026): magnetometer modeling and mapping [C5, C6, R1]; *now a Software Engineer at AutoPCB*"
+      - bullet: "**You-Long Wu**, master's researcher (2024–2026): multi-modal fusion [C5]; *now a lecturer at the National Defense University, Taiwan*"
+      - bullet: "**Loi Park**, undergraduate researcher (2024–2025): magnetometer modeling [C6]; *now a senior in mechanical engineering at the University of Florida*"
+
+    Proposal Writing Experience:
+      - bullet: "\"A Unified Risk-Aware Representation for Multi-Modal Planning in Uncertain Environments,\" Amazon Research Awards, 2026. *Role: Developed the contributions, methodology, and experimental plan. PI: Jaejeong Shin*"
+      - bullet: "White paper on \"Active Magnetic Sensing for Long Duration Navigation Underwater,\" Office of Naval Research (PM: Tory Cobb), 2025. *Role: Wrote two research thrusts, \"Active perception for robust map-based magnetic navigation\" and \"Active navigation with magnetic landmarks for map-free navigation\". PI: Jaejeong Shin*"
+      - bullet: "\"Compliant Mechanical Network Theory for Enhanced Design and Control of Robotic Systems,\" NSF Foundational Research in Robotics (FRR), 2023. *Role: Wrote the background, methodology, and experimental design sections. PI: Michael Griffis; Co-PIs: Carl D. Crane III, Shannon Ridgeway*"
+
+    Presentations:
+      - bullet: "\"Real-time Uncertainty-Aware Motion Planning for Magnetic-based Navigation,\" invited lecture, EML6934: Sensor-Based Robot Planning, University of Florida, Spring 2026 [J1]"
+      - bullet: "\"Neural Network-Based Magnetometer Sensor Model for Virtual Magnetic-Based Navigation Testbed,\" AIAA SciTech Forum, Orlando, FL, January 2025 [C6]"
+      - bullet: "\"Information-Driven Magnetic Navigation,\" research presentation and live demonstration, with an underwater motion-capture tank demonstration, for the Office of Naval Research program manager (Tory Cobb), University of Florida, Gainesville, FL, July 2024"
+      - bullet: "\"Modularis: Modular Underwater Robot for Rapid Development and Validation of Autonomous Systems,\" poster presenting proposed Modularis 2.0 extensions to the platform of Herrin et al. (OCEANS 2023), UF Center for Coastal Solutions Summit, Gainesville, FL, December 2023"
+
+    Honors and Awards:
+      - title: Dean's Research Award
+        awarder: Herbert Wertheim College of Engineering, University of Florida
+        date: 2023
+        summary: Competitive award funding Ph.D. studies.
+
+      - title: Achievement Award
+        awarder: Herbert Wertheim College of Engineering, University of Florida
         date: 2021
-        awarder: Herbert Werthiem College of Engineering 
-        # summary: Awarded for outstanding scientific achievement
+        summary: Awarded on admission to the M.S. program.
 
-    # Publications:
-    #   - title: Zur Elektrodynamik bewegter Körper
-    #     authors:
-    #       - Albert Einstein
-    #     publisher: Annalen der Physik
-    #     releaseDate: 1905-06-30
-    #     url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-    #     summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-    #   - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-    #     authors:
-    #       - Albert Einstein
-    #     publisher: Annalen der Physik
-    #     releaseDate: 1905-03-18
-    #     url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-    #     summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-    #   - title: Die Grundlage der allgemeinen Relativitätstheorie
-    #     authors:
-    #       - Albert Einstein
-    #     publisher: Annalen der Physik
-    #     releaseDate: 1916-03-20
-    #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-    #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Robot Planning and Decision Making
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Path Planning, Motion Planning, Bayesian Learning, Localization Uncertainty, SLAM, Mapping"
-      - name: Robot Configuration
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Kinematics, Dynamic analysis, Screw Theory"
-
-    Languages:
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Robotics
-        icon: fa-solid fa-tag
-        keywords: "Path Planning, Motion Planning, Bayesian Learning, Localization Uncertainty, SLAM, Mapping"
-      - name: Mechanical Engineering
-        icon: fa-solid fa-tag
-        keywords: "Engineering Design, Dynamics and Control, Kinematics, Screw Theory"
-
-    # Certificates:
-    #   - name: Machine Learning
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-location-dot
-
-    #   - name: Quantum Computing
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-tag
-
-    #   - name: Quantum Information
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-envelope
-
-    # Projects:
-    #   - name: Quantum Computing
-    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-    #     highlights:
-    #       - Quantum Teleportation
-    #       - Quantum Cryptography
-    #     start_date: 2018-01-01
-    #     end_date: 2018-01-01
-
-    # References:
-    #   - name: Professor Jane Shin
-    #     icon: fa-solid fa-laptop
-    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-    #   - name: Professor Jane Smith
-    #     icon: fa-solid fa-thumbtack
-    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Professional Service:
+      - bullet: "**Reviewer:** IEEE/RSJ International Conference on Intelligent Robots and Systems (2025–), IEEE Transactions on Automation Science and Engineering (2026–), IEEE Journal of Oceanic Engineering (2026–)"
+      - bullet: "**Member:** IEEE Student Member, IEEE RAS Student Member, AIAA Student Member"
