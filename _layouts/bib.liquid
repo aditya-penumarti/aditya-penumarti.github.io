@@ -39,7 +39,7 @@
             {% endif %}
             {% include video.liquid path=preview_video_path class="preview z-depth-1 rounded" controls=true %}
             {% elsif entry.preview contains '://' %}
-            <img class="preview z-depth-1 rounded" src="{{ entry.preview }}">
+            <img class="preview z-depth-1 rounded" src="{{ entry.preview }}" alt="{{ entry.title | escape }}">
             {% else %}
             {% assign entry_path = entry.preview | prepend: '/assets/img/publication_preview/' %}
             {%
@@ -50,7 +50,7 @@
             class="preview z-depth-1 rounded"
             zoomable=true
             avoid_scaling=true
-            alt=entry.preview
+            alt=entry.title
             %}
             {% endif %}
             {% endif %}
@@ -265,6 +265,9 @@
             <a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0"
                 role="button">Slides</a>
             {% endif %}
+            {% endif %}
+            {% if entry.slides_pptx %}
+            <a href="{{ entry.slides_pptx | prepend: '/assets/pdf/' | relative_url }}" class="btn btn-sm z-depth-0" role="button" download>Slides (PPTX)</a>
             {% endif %}
             {% if entry.website %}
             <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">WEBSITE</a>

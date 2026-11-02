@@ -6,16 +6,17 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Aditya
 middle_name:
 last_name: Penumarti
+contact_email: apenumarti@ufl.edu # used only by the scraper-protected link on the home page
 contact_note: >
   If you need to reach me, message me in LinkedIn!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Aditya Penumarti is a Ph.D. candidate in Mechanical Engineering at the University of Florida researching robot decision-making under uncertainty in unstructured and GPS-denied environments, including belief-space planning, uncertainty-aware multimodal representations, information-constrained planning, and active perception for marine and aerial vehicles.
 footer_text: >
-  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
+  Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>, inspired by the <a href="https://github.com/alshedivat/al-folio" target="_blank">al-folio</a> theme.
 keywords: Aditya Penumarti, robotics, belief-space planning, motion planning, planning under uncertainty, active perception, uncertainty quantification, magnetic navigation, GPS-denied navigation, underwater robotics, aerial robotics, University of Florida # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
-apple_touch_icon: # image name in /assets/img/ (or a rooted path / absolute URL) used for iOS home-screen bookmarks; needs a real 180x180 PNG, since Safari ignores the emoji favicon above. Left empty, iOS falls back to a screenshot of the page.
+icon: favicon.svg # initials placeholder in /assets/img/; swap for a logo later
+apple_touch_icon: apple-touch-icon.png # 180x180 PNG in /assets/img/
 
 url: https://aditya-penumarti.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -110,7 +111,7 @@ max_width: 930px
 # see https://schema.org/docs/faq.html for more information
 serve_og_meta: true # Include Open Graph meta tags in the HTML head
 serve_schema_org: true # Include Schema.org in the HTML head
-og_image: https://aditya-penumarti.github.io/assets/img/Adi.jpeg # The site-wide (default for all links) Open Graph preview image
+og_image: https://aditya-penumarti.github.io/assets/img/og-image.png # placeholder card; swap for a logo later
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -202,10 +203,6 @@ collections:
   news:
     defaults:
       layout: post
-    output: false
-  projects:
-    output: false
-  teachings:
     output: false
 
 # -----------------------------------------------------------------------------
@@ -412,6 +409,7 @@ filtered_bibtex_keywords:
     preview,
     selected,
     slides,
+    slides_pptx,
     supp,
     video,
     website,

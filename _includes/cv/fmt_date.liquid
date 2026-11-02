@@ -1,0 +1,3 @@
+{%- comment -%} Formats include.d: YYYY-MM -> "Mon YYYY"; anything else (year, "Expected Spring 2027") is shown as-is. {%- endcomment -%}
+{%- assign d = include.d | append: '' -%}
+{%- if d.size == 7 and d contains '-' -%}{{ d | append: '-01' | date: '%b %Y' }}{%- else -%}{{ d }}{%- endif -%}

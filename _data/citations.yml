@@ -1,5 +1,8 @@
 metadata:
-  last_updated: '2026-09-10'
+  citations: 19
+  h_index: 2
+  i10_index: 0
+  last_updated: '2026-11-02'
 papers:
   q9V7p6kAAAAJ:9yKSN-GCB0IC:
     citations: 2
@@ -10,27 +13,35 @@ papers:
     title: 'Lessons from RAITE: Real-World Evaluation of Robust Multi-Modal Target Detection and Tracking Under Adversarial Attacks'
     year: '2025'
   q9V7p6kAAAAJ:Tyk-4Ss8FVUC:
-    citations: 0
+    citations: 1
     title: Action Recognition for Underwater Gesture Communication in Human Diver and Robot Teaming
     year: '2025'
   q9V7p6kAAAAJ:UeHWp8X0CEIC:
-    citations: 0
+    citations: 1
     title: Neural Network-Based Magnetometer Sensor Model for Virtual Magnetic-Based Navigation Testbed
     year: '2025'
   q9V7p6kAAAAJ:W7OEmFMy1HYC:
-    citations: 0
+    citations: 2
     title: Calibration and Comparative Analysis of Forward-Looking Sonar and 3D Sonar for Enhanced Underwater Object Recognition
     year: '2026'
-  q9V7p6kAAAAJ:Y0pCki6q_DkC:
+  q9V7p6kAAAAJ:WF5omc3nYNoC:
     citations: 0
-    title: 'uScenes: A Multimodal RGB and 3D Sonar Dataset for Underwater Robot Perception'
+    title: 'AQUAACT: A Joystick-Level Underwater Teleoperation Dataset and Closed-Loop Benchmark'
+    year: '2026'
+  q9V7p6kAAAAJ:Y0pCki6q_DkC:
+    citations: 2
+    title: 'uscenes: A multimodal rgb and 3d sonar dataset for underwater robot perception'
     year: '2026'
   q9V7p6kAAAAJ:d1gkVwhDpl0C:
     citations: 3
     title: Fast marching based rendezvous path planning for a team of heterogeneous vehicles
     year: '2024'
+  q9V7p6kAAAAJ:eQOLeE2rZwMC:
+    citations: 0
+    title: 'Akule: Fast and Scalable Multi-Robot Motion Planning via Sparse Interaction Diffusion'
+    year: '2026'
   q9V7p6kAAAAJ:u-x6o8ySG0sC:
-    citations: 5
+    citations: 6
     title: Real-time Uncertainty-Aware Motion Planning for Magnetic-based Navigation
     year: '2026'
   q9V7p6kAAAAJ:u5HHmVD_uO8C:
@@ -38,6 +49,6 @@ papers:
     title: 'Mechanical Networks: An Investigation Into Connected Kinematic Systems'
     year: '2023'
   q9V7p6kAAAAJ:zYLM7Y9cAGgC:
-    citations: 1
+    citations: 2
     title: 'Belief-Conditioned One-Step Diffusion: Real-Time Trajectory Planning with Just-Enough Sensing'
     year: '2025'

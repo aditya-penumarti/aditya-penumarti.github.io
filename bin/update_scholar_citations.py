@@ -83,6 +83,15 @@ def get_scholar_citations() -> None:
         print(f"No publications found in author data for user ID '{SCHOLAR_USER_ID}'.")
         sys.exit(1)
 
+    # Profile-level totals shown on the home page
+    citation_data["metadata"].update(
+        {
+            "citations": author_data.get("citedby", 0),
+            "h_index": author_data.get("hindex", 0),
+            "i10_index": author_data.get("i10index", 0),
+        }
+    )
+
     for pub in author_data["publications"]:
         try:
             pub_id = pub.get("pub_id") or pub.get("author_pub_id")
@@ -109,7 +118,14 @@ def get_scholar_citations() -> None:
             )
 
     # Compare new data with existing data
-    if existing_data and existing_data.get("papers") == citation_data["papers"]:
+    if (
+        existing_data
+        and existing_data.get("papers") == citation_data["papers"]
+        and all(
+            existing_data.get("metadata", {}).get(k) == citation_data["metadata"][k]
+            for k in ("citations", "h_index", "i10_index")
+        )
+    ):
         print("No changes in citation data. Skipping file update.")
         return
 

@@ -32,3 +32,23 @@
 "planck":
   - firstname: ["Max"]
     url: https://en.wikipedia.org/wiki/Max_Planck
+
+"puthumanaillam":
+  - firstname: ["Gokul"]
+    url: https://gokulp01.github.io
+
+"vora":
+  - firstname: ["Manav"]
+    url: https://manavvora.github.io
+
+"ornik":
+  - firstname: ["Melkior"]
+    url: https://mornik.web.illinois.edu
+
+"lin":
+  - firstname: ["Xiaomin"]
+    url: https://xiaominlin.github.io
+
+"shin":
+  - firstname: ["Jane", "Jaejeong"]
+    url: https://theaprilab.org/people/jane
