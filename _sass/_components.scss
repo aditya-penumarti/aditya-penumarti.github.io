@@ -833,6 +833,8 @@ body:has(.navbar-brand-home) .post-title {
 }
 
 .open-to {
+  // flow-root keeps the tinted box beside the floated profile photo, not under it or its caption
+  display: flow-root;
   margin: 0 0 1.25rem;
   padding: 0.7rem 1rem;
   border-left: 4px solid var(--global-theme-color);

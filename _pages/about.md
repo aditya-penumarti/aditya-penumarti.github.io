@@ -49,7 +49,7 @@ My research focuses on **planning under uncertainty** in **GPS-denied environmen
 
 I am advised by [Prof. Jane Shin](https://theaprilab.org/people/jane). I received my M.Sc from the University of Florida, working with [Prof. Carl Crane](https://mae.ufl.edu/people/name/carl-crane/) and [Prof. Michael Griffis](https://mae.ufl.edu/people/name/mike-griffis/). I received my B.Sc. from North Carolina State University.
  
-I am deeply interested in teaching and mentoring. I co-developed an autonomous ground vehicle class at the University of Florida, built on 1/10 vehicle platforms, and I have mentored five undergraduate and master's students.
+I am deeply interested in teaching and mentoring. I co-developed an autonomous ground vehicle class at the University of Florida, built on 1/10 scale vehicle platforms, and I have mentored five undergraduate and master's students.
 
 ## Research Vision
 
