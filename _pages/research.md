@@ -30,22 +30,9 @@ nav_order: 1
 
 ### Thrust 1: Representing What the Robot Does Not Know
 
-Maps and sensor models that say how uncertain they are. BEAMM builds expandable magnetic field maps with calibrated uncertainty, a neural magnetometer model supports virtual testing, and multimodal RGB and sonar work (calibration and the uScenes dataset) gives underwater robots richer representations to reason over.
+Maps and sensor models that say how uncertain the representations are. BEAMM builds expandable magnetic field maps with calibrated uncertainty, a neural magnetometer model supports virtual testing, and the RAITE evaluation tests multi-modal detection and tracking under adversarial attacks.
 
-[BEAMM](https://beamm-map.github.io) · [SciTech 2025](/publications/#penumarti2025neural) · [Sonar calibration](/publications/#penumarti2026calibration) · [uScenes](/publications/#dong2026uscenes)
-
-  </div>
-</div>
-
-<div class="research-thread">
-  <img class="preview z-depth-1 rounded" src="{{ '/assets/img/publication_preview/InfoMagNav.webp' | relative_url }}" alt="Simulation of a robot choosing a path through a magnetic field map to reduce its localization uncertainty" loading="lazy">
-  <div markdown="1">
-
-### Thrust 2: Active Perception and the Value of Information
-
-Deciding where to sense, not just where to go. HALo characterizes how field gradients determine localizability, and my information-driven planner uses that to choose paths that keep the robot localized, improving localization accuracy by 5% and cutting failure rates by 34% over state-of-the-art methods.
-
-[IEEE Access 2026](/publications/#penumarti2026real) · [Global planning preprint](/publications/#penumarti2024global)
+[BEAMM](https://beamm-map.github.io) · [SciTech 2025](/publications/#penumarti2025neural) · [SPIE 2025](/publications/#herrina2025lessons)
 
   </div>
 </div>
@@ -54,16 +41,39 @@ Deciding where to sense, not just where to go. HALo characterizes how field grad
   <img class="preview z-depth-1 rounded" src="{{ '/assets/img/publication_preview/bcod.webp' | relative_url }}" alt="Diffusion-based trajectory planning that conditions on the robot's belief" loading="lazy">
   <div markdown="1">
 
+### Thrust 2: Active Perception and the Value of Information
+
+Deciding where to sense, not just where to go defined by the central question of can we use a representations structure to compute where to go next to avoid belief propagation. B-COD conditions a one-step diffusion planner on the robot's belief for real-time trajectories with just-enough sensing, and HALo characterizes how a scalar field determines localizability, using Fisher information and an MPPI controller to keep the robot localized.
+
+[CoRL 2025](/publications/#puthumanaillam2025belief) · [B-COD project page](https://bcod-diffusion.github.io) · [HALo](https://halo-nav.github.io)
+
+  </div>
+</div>
+
+<div class="research-thread">
+  <img class="preview z-depth-1 rounded" src="{{ '/assets/img/publication_preview/InfoMagNav.webp' | relative_url }}" alt="Simulation of a robot choosing a path through a magnetic field map to reduce its localization uncertainty" loading="lazy">
+  <div markdown="1">
+
 ### Thrust 3: Deciding Under Risk with Classical and Learned Planners
 
-Turning belief into action, whether the planner is classical or learned. B-COD conditions a one-step diffusion planner on the robot's belief for real-time trajectories with just-enough sensing, and the real-time magnetic planner reduces compute by over 99%. Akule extends diffusion planning to multi-robot teams.
+Classical and learned planners can choose the same path for different reasons, and the path alone does not say which. This thrust develops a planner-agnostic account of each decision (the belief, the risk accepted, and the information expected to be gained) that an operator can inspect before execution, or that the robot uses to reject plans whose risk exceeds set bounds and replan. My real-time uncertainty-aware motion planner accounts for posterior position entropy in degenerate regions of the map, reducing failures compared with planners that consider observability alone.
 
-[CoRL 2025](/publications/#puthumanaillam2025belief) · [Project page](https://bcod-diffusion.github.io)
+[IEEE Access 2026](/publications/#penumarti2026real) · [InfoMagNav](https://theaprilab.org/info_magnav)
 
   </div>
 </div>
 
 <p class="systems-note" markdown="1">**Systems I have built to test these ideas:** the software stack for an underwater vehicle, a [gesture-driven diver-following controller](/publications/#zhang2025action), research drones, and an Isaac Sim digital twin.</p>
+
+</div>
+
+<div class="teaching-section" markdown="1">
+
+## Long-Term Vision
+
+The three thrusts close into a single loop: the plans of Thrust 3 gather the measurements that recalibrate the models of Thrust 1, which in turn change what Thrust 2 values. In years 4–5 of a faculty position, I aim to demonstrate this loop on a field platform that navigates with only a sparse prior map.
+
+The broader goal is robots, with classical or learned planners, whose every decision can be verified before execution. That gives operators and regulators a basis for certifying autonomy in safety-critical settings, and gives students hands-on platforms for learning estimation and decision-making under uncertainty.
 
 </div>
 
